@@ -1,0 +1,63 @@
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(33, 147, 33) 0%, rgb(29, 147, 18) 35%, rgb(165, 205, 138) 100%);
+  text-align: center;
+}
+
+.card {
+  background-color: #e19d61;
+  box-sizing: border-box;
+}
+
+.form-group-card-text {
+  font-weight: 100;
+  text-transform: lowercase;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+#newCurrency {
+  font-weight: 100;
+  color: black;
+  margin: auto;
+}
+
+.btn {
+  font-weight: 100;
+  text-transform: lowercase;
+  background-color: rgb(29, 147, 18);
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+
+.container {
+  margin-top: 5vh;
+}
+
+.form-control {
+  width: 30vw;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 3em;
+  text-transform: lowercase;
+  letter-spacing: 0.25em;
+  color: #e19d61;
+}
+
+h2 {
+  font-weight: 100;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
