@@ -16,7 +16,7 @@
 * Terminal
 * GitHub
 * Node Package Manager
-* [ExchangeRate-API] (https://www.exchangerate-api.com/)
+* [ExchangeRate-API](https://www.exchangerate-api.com/)
 
 ## Description
 
@@ -32,11 +32,11 @@ Just click here, [yeah, right here!](https://phantomcurve.github.io//)
 
 * Navigate to https://github.com/phantomcurve/currency-api/archive/refs/heads/main.zip
 * Open and extract downloaded ZIP folder
-* Load extraxcted project directory folder into your favorite code editor 
-* In your termianl command line, from the project directory, run "npm install"
+* Load extracted project directory folder into your favorite code editor 
+* In your terminal command line (from the project directory) run "npm install"
 * Once "npm install" has completed, run "npm run build"
-* Navigate to [Exchange Rate API] (https://www.exchangerate-api.com/), create a user account and copy your given API Key 
-* Create .env file to hold your API key, then add API-KEY="your-api-key-here" (the quotes should be replaced by your key!)
+* Navigate to [Exchange Rate API](https://www.exchangerate-api.com/), create a user account and copy your given API Key 
+* Create .env file to hold your API key, then add API-KEY="paste-your-api-key-here" (the quotes should be replaced by your key!)
 
 ## Licensing
 
