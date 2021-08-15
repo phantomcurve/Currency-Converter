@@ -22,21 +22,19 @@
 
 This simple web app uses the Exchange Rate API to return current exchange rates between U.S. Dollars and other currencies of the users' choosing.
 
-## Tests/Specs
-
 ## How to view: 
 
-Just [click here!](https://phantomcurve.github.io/currency-api/)
+Just [click here!](https://phantomcurve.github.io/currency-api/dist/index.html)
 
 ## How to download to edit:
 
 * Navigate to https://github.com/phantomcurve/currency-api/archive/refs/heads/main.zip
 * Open and extract downloaded ZIP folder
 * Load extracted project directory folder into your favorite code editor 
-* In your terminal command line (from the project directory) run "npm install"
-* Once "npm install" has completed, code away! And don't forget to run "npm run build" after any major changes to your code
 * Navigate to [Exchange Rate API](https://www.exchangerate-api.com/), create a user account and copy your given API Key 
 * Create .env file to hold your API key, then add API-KEY="paste-your-api-key-here" (the quotes should be replaced by your key!)
+* In your terminal command line (from the project directory) run "npm install"
+* Once "npm install" has completed, code away! And don't forget to run "npm run build" after any major changes to your code
 
 ## Licensing
 
