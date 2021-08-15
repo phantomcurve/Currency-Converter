@@ -2,13 +2,13 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import Currency from './currency';
+import Currency from './currency.js';
 
 function getElements(response, inputtedAmount, oldCurrency, newCurrency) {
   if(response.conversion_rates){
     let oldRate = response.conversion_rates[oldCurrency];
     let newRate = response.conversion_rates[newCurrency];
-      $(".showResult").html(`${inputtedAmount} ${oldCurrency} = ${inputtedAmount * (newRate/oldRate)} ${newCurrency}`);
+    $(".showResult").html(`${inputtedAmount} ${oldCurrency} = ${inputtedAmount * (newRate/oldRate)} ${newCurrency}`);
   } else {
     $(".showError").text(`Ooops, there's been an error: ${response.message}`);
   }
